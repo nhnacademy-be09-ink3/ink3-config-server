@@ -19,12 +19,20 @@ spring:
           clone-on-start: true
           default-label: main
           repos:
-            default:
+            auth:
               pattern:
                 - 'auth-service'
               uri: https://github.com/nhnacademy-be09-ink3/ink3-config.git
               search-paths:
                 - auth
+
+            api:
+              pattern:
+                - 'shop-service'
+              uri: https://github.com/nhnacademy-be09-ink3/ink3-config.git
+              search-paths:
+                - api
+
           search-paths:
             - api
             - front
