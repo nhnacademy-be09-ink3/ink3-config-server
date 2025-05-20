@@ -22,7 +22,7 @@ spring:
             default:
               pattern:
                 - 'auth-service'
-              uri: https://github.com/your-repo/config-repo.git
+              uri: https://github.com/nhnacademy-be09-ink3/ink3-config.git
               search-paths:
                 - auth
           search-paths:
