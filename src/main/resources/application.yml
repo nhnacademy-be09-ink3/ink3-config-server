@@ -33,10 +33,6 @@ spring:
               search-paths:
                 - api
 
-          search-paths:
-            - api
-            - front
-            - gateway
 
 management:
   endpoints:
