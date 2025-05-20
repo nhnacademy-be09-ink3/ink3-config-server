@@ -21,6 +21,7 @@ spring:
           search-paths:
             - api
             - front
+            - gateway
 
 management:
   endpoints:
