@@ -18,11 +18,17 @@ spring:
           uri: https://github.com/nhnacademy-be09-ink3/ink3-config.git
           clone-on-start: true
           default-label: main
+          repos:
+            default:
+              pattern:
+                - 'auth-server'
+              uri: https://github.com/your-repo/config-repo.git
+              search-paths:
+                - auth
           search-paths:
             - api
             - front
             - gateway
-            - auth
 
 management:
   endpoints:
