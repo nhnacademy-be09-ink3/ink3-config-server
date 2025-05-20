@@ -33,6 +33,13 @@ spring:
               search-paths:
                 - api
 
+            eureka:
+              pattern:
+                - 'eureka'
+              uri: https://github.com/nhnacademy-be09-ink3/ink3-config.git
+              search-paths:
+                - eureka
+
 
 management:
   endpoints:
