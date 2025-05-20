@@ -1,1 +1,1 @@
-# ink3-config-server
+# config
