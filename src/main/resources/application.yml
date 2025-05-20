@@ -22,6 +22,7 @@ spring:
             - api
             - front
             - gateway
+            - auth
 
 management:
   endpoints:
