@@ -40,6 +40,13 @@ spring:
               search-paths:
                 - eureka
 
+            batch:
+              pattern:
+                - 'ink3-batch'
+              uri: https://github.com/nhnacademy-be09-ink3/ink3-config.git
+              search-paths:
+                - batch
+
 
 management:
   endpoints:
