@@ -47,6 +47,21 @@ spring:
               search-paths:
                 - batch
 
+            gateway:
+              pattern:
+                - 'gateway'
+              uri: https://github.com/nhnacademy-be09-ink3/ink3-config.git
+              search-paths:
+                - gateway
+
+            front:
+              pattern:
+                - 'front'
+              uri: https://github.com/nhnacademy-be09-ink3/ink3-config.git
+              search-paths:
+                - front
+
+
 
 management:
   endpoints:
