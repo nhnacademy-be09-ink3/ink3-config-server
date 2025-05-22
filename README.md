@@ -10,6 +10,7 @@ config server에 변경 반영 <br>
   -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
  </code></pre> <br><br>
 config client들에 전파 <br>
+{server ip}/actuator/busrefresh 에 POST 요청 <br>
 <pre><code>curl -X POST http://ink3.shop/config/actuator/busrefresh \
   -H "Content-Type: application/json" \
   -H "Accept: application/json" \
