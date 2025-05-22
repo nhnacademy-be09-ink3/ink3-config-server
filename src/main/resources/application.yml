@@ -35,7 +35,7 @@ spring:
 
             eureka:
               pattern:
-                - 'eureka'
+                - 'ink3-eureka'
               uri: https://github.com/nhnacademy-be09-ink3/ink3-config.git
               search-paths:
                 - eureka
