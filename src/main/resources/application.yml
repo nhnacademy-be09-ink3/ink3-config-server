@@ -56,7 +56,7 @@ spring:
 
             front:
               pattern:
-                - 'front'
+                - 'ink3-front'
               uri: https://github.com/nhnacademy-be09-ink3/ink3-config.git
               search-paths:
                 - front
