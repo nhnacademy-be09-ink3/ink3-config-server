@@ -9,7 +9,7 @@ config server에 변경 반영 <br>
   -H "Accept: application/json" \
   -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
  </code></pre> <br><br>
-config client들에 전파 <br>
+이미 배포된 서버에서 변경사항 있을시 config client들에 전파(merge 후 재배포되는 경우 할 필요 없음) <br>
 {server ip}/actuator/busrefresh 에 POST 요청 <br>
 <pre><code>curl -X POST http://ink3.shop/config/actuator/busrefresh \
   -H "Content-Type: application/json" \
